@@ -705,6 +705,7 @@
     <Content Include="aspnet_client\FreeTextBox\utility\folder.small.gif" />
     <Content Include="aspnet_client\FreeTextBox\utility\folder.up.gif" />
     <Content Include="aspnet_client\FreeTextBox\utility\image.gif" />
+    <Content Include="fckeditor.aspx" />
     <Content Include="freetextbox.aspx" />
     <Content Include="ftb.imagegallery.aspx" />
     <Content Include="Web.config">
@@ -712,6 +713,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fckeditor.aspx.cs">
+      <DependentUpon>fckeditor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fckeditor.aspx.designer.cs">
+      <DependentUpon>fckeditor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="freetextbox.aspx.cs">
       <DependentUpon>freetextbox.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -75,7 +75,6 @@ function FTB_InsertImage() {
 		' />';
 		
 	window.opener.FTB_API[ftb].InsertHtml(img);
-
 };
 function FTB_DeleteImage(galleryID) {
 	__doPostBack(galleryID,"DeleteImage:" + currentImage);
